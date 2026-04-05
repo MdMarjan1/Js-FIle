@@ -144,3 +144,5 @@ if(age < 10){
 else{
     console.log('you pay full fare',ticket,'tk');
 }
+
+// Marjan
