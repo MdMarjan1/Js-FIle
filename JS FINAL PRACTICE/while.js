@@ -1,7 +1,7 @@
 // "I will invest at least 6 hrs every single day for next 60 days!" this message 60 times. So display this.
 let timeSpend = 1
 while(timeSpend <= 60){
-    // console.log(timeSpend,'I will invest at least 6 hrs every single day for next 60 days!');
+    console.log(timeSpend,'I will invest at least 6 hrs every single day for next 60 days!');
     timeSpend++
 }
 
@@ -10,7 +10,7 @@ while(timeSpend <= 60){
 let odD = 61
 while(odD <= 100){
     if(odD % 2 === 1){
-        // console.log('odd number',odD);
+        console.log('odd number',odD);
     }
      odD++
 }
@@ -20,7 +20,7 @@ while(odD <= 100){
 let eVen = 78
 while(eVen <= 98){
     if(eVen % 2 === 0){
-        // console.log('even number',eVen);
+        console.log('even number',eVen);
     }
     eVen++
 }
@@ -35,7 +35,7 @@ while(odd_sum <= 131){
     }
     odd_sum++
 }
-// console.log(o_sum);
+console.log(o_sum);
 
 
 // Display sum of all the even numbers from 206 to 311.
@@ -47,7 +47,7 @@ while(even_sum <= 311){
     }
     even_sum++
 }
-// console.log(e_sum);
+console.log(e_sum);
 
 
 // As Ersa is learning now, she wants to explore more and more. Tell Ersa to generate a multiplication table for number 5
@@ -55,4 +55,12 @@ let multi = 1
 while(multi <= 10){
     console.log("5*"+multi,multi*5);
     multi++
+}
+
+
+// Implement a countdown timer that counts down from 21 to 15.
+let dOwn =21
+while(dOwn >= 15){
+    console.log(dOwn);
+    dOwn--
 }
