@@ -36,3 +36,14 @@ for(let evvs = 51; evvs<=85; evvs++){
     }
 }
 console.log(E_sum);
+
+
+// Problem 4
+for(let mul= 1; mul <= 10; mul++){
+    console.log('9*'+mul+' =',mul * 9);
+}
+
+// Problem 5
+for(let cd = 81; cd >= 65; cd--){
+    console.log(cd);
+}
