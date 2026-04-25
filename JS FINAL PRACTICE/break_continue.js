@@ -14,3 +14,4 @@ for(const fruit of a69){
    console.log(fruit);
 }
 
+
