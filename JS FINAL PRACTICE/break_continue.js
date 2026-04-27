@@ -23,7 +23,7 @@ while(a70 < 25){
    }
    console.log(a70);
   
-// }
+}
 
 
 //Write a loop 1 to 200. Use break to exit the loop once you find 100.
@@ -72,7 +72,7 @@ for(let ops = 1; ops <= 40; ops++){
 }
 
 
-// display odd number from 55 to 85 and skip the numbers divisible by 5.
+// display odd number from 55 to 85 and skip the numbers divisible by 5
 
 for(let pos= 55; pos<=85; pos++){
    if(pos % 2 === 0 || pos % 5 === 0){
