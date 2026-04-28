@@ -5,11 +5,11 @@ console log the 3rd index element
 change the value of the 2nd index element to jambura
 console log the final array
 */
-// let fol=['apple','mango','banana','orange','dragon']
-// let fruit=fol[3]
-// console.log(fruit);
-// fol[2]='jambura'
-// console.log(fol);
+let fol=['apple','mango','banana','orange','dragon']
+let fruit=fol[3]
+console.log(fruit);
+fol[2]='jambura'
+console.log(fol);
 
 
 
@@ -21,11 +21,11 @@ Add two more to your array
 Remove the last tourist destination you have added
 display the final array as output
 */
-// let tour = ['CoxsBazer', 'Sylhet', 'Bandorbon']
-// tour.push('Sajek')
-// tour.push('Thailand','Maldip')
-// tour.pop()
-// console.log(tour);
+let tour = ['CoxsBazer', 'Sylhet', 'Bandorbon']
+tour.push('Sajek')
+tour.push('Thailand','Maldip')
+tour.pop()
+console.log(tour);
 
 
 /*
@@ -38,13 +38,13 @@ Use the includes method to check if the array contains a javascript book.
 
 Print a message to the console indicating whether the element is present in the array or not.
 */
-// let books = ['MasudRana', 'drei cid', 'Bad habit', 'love Me']
-// if(books.includes('javascript')){
-//     console.log('Present');
-// }
-// else{
-//     console.log('not');
-// }
+let books = ['MasudRana', 'drei cid', 'Bad habit', 'love Me']
+if(books.includes('javascript')){
+    console.log('Present');
+}
+else{
+    console.log('not');
+}
 
 
 /*
